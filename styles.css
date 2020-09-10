@@ -9,12 +9,12 @@ body {
   text-align: center;
 }
 #self-title {
-  color:black
+  color:black;
   background-color:#BDD5EA;
 }
 h1 {
   text-align: center;
-  color:#050517;
+  color:#BDD5EA;
   font-family: arial, sans-serif;
 }
 p {
