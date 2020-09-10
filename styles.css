@@ -1,16 +1,17 @@
 body {
   background-color:#D3D5D7;
 }
+#about-me {
+  color:#050517;
+  background-color:#F4E3B2;
+  padding: 50px;
+  font-size: 125%;
+  text-align: center;
+}
 h1 {
   text-align: center;
   color:#050517;
 }
 p {
-  color:black;
-}
-#about-me {
-  color:#050517;
-  background-color:#F4E3B2;
-  padding: 50px;
-  text-align: center;
+  font-family: arial;
 }
