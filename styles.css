@@ -11,8 +11,8 @@ body {
 h1 {
   text-align: center;
   color:#050517;
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 p {
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
