@@ -1,10 +1,16 @@
 body {
-  background-color:#D3D5D7
+  background-color:#D3D5D7;
 }
 h1 {
   text-align: center;
-  color:#050517
+  color:#050517;
 }
 p {
-  color:black
+  color:black;
+}
+#about-me {
+  color:#050517;
+  background-color:#F4E3B2;
+  padding: 50px;
+  text-align: center;
 }
