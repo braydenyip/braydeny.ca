@@ -1,12 +1,16 @@
 body {
-  background-color:#D3D5D7;
+  background-color:white;
 }
 #about-me {
-  color:#050517;
-  background-color:#F4E3B2;
+  color:black;
+  background-color:#F7F7FF;
   padding: 50px;
   font-size: 125%;
   text-align: center;
+}
+#self-title {
+  color:black
+  background-color:#BDD5EA;
 }
 h1 {
   text-align: center;
