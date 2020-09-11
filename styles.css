@@ -1,6 +1,6 @@
 body {
   background-color:#F7F7FF;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 #about-me {
   color:black;
@@ -16,7 +16,7 @@ body {
 h1 {
   text-align: center;
   color:#BDD5EA;
-  font-family: 'Arvo', serif
+  font-family: 'Roboto Slab', Times, serif
 }
 p {
   background-color:#495867;
