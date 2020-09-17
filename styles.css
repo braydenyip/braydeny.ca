@@ -4,27 +4,41 @@ body {
 }
 #about-me {
   color:black;
-  background-color:#F7F7FF;
+  background-color:#F7F7FF; /*White*/
   padding: 50px;
   font-size: 125%;
   text-align: center;
 }
 #self-title {
   color:black;
-  background-color:#89D2DC;
+  background-color:#89D2DC; /*~Skyblue type*/
 }
 
-.project-link{
+.project-button{
+  border: none;
+  height: 100px;
+  width: 600px;
+  margin: 25px;
   color:white;
-  background-color: #0B4F6C;
+  background-color: #0B4F6C; /*Blue Sapphire*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
+.project-button:hover{
+  background-color: #03212e;
+}
 h1 {
   text-align: center;
-  color:#BDD5EA;
+  color:#4C1E4F;
   font-family: 'Roboto Slab', Times, serif
 }
 p {
-  background-color:#F9DB6D;
+  background-color:#F7F7FF;
   color:white;
 }
