@@ -5,11 +5,12 @@ body {
 #about-me {
   color:black;
   padding: 25px;
-  font-size: 125%;
+  font-size: 1.25em;
   text-align: center;
 }
 #self-title {
   color:black;
+  font-size: 1.4em;
   background-color:#89D2DC; /*~Skyblue type*/
 }
 
@@ -23,10 +24,14 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.125em;
   cursor: pointer;
   transition-duration: 0.25s;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.hidden-desc{
+  display: none;
 }
 
 .project-button:hover{
