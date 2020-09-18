@@ -4,8 +4,7 @@ body {
 }
 #about-me {
   color:black;
-  background-color:#F7F7FF; /*White*/
-  padding: 50px;
+  padding: 25px;
   font-size: 125%;
   text-align: center;
 }
@@ -31,7 +30,7 @@ body {
 }
 
 .project-button:hover{
-  background-color: #03212e;
+  background-color: #062938;
 }
 
 h1 {
