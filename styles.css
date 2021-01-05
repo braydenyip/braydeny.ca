@@ -2,15 +2,18 @@ body {
   background-color:#F7F7FF;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
+
 #about-me {
-  color:black;
+  color: black;
   padding: 25px;
   font-size: 1.25em;
   text-align: center;
 }
+
 #self-title {
-  color:black;
-  background-color:#89D2DC; /*~Skyblue type*/
+  font-size: 1.5em;
+  color: black;
+  background-color :#89D2DC; /*~Skyblue type*/
 }
 
 .project-button{
@@ -18,7 +21,7 @@ body {
   height: 100px;
   width: 600px;
   margin: 25px;
-  color:white;
+  color: white;
   background-color: #0B4F6C; /*Blue Sapphire*/
   text-align: center;
   text-decoration: none;
@@ -30,7 +33,7 @@ body {
 }
 
 .project-desc{
-  display:inline-block;
+  display: inline-block;
   margin-right: 0.5em;
   margin-left: 1em;
   padding: 15px;
@@ -47,10 +50,11 @@ h1 {
   margin: 0;
   padding: 1em;
   text-align: center;
-  color:#4C1E4F;
+  color: #4C1E4F;
   font-family: 'Roboto Slab', Times, serif
 }
+
 p {
-  background-color:#F7F7FF;
-  color:white;
+  background-color: #F7F7FF;
+  color: white;
 }
