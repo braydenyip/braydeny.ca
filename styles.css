@@ -47,6 +47,11 @@ body {
   background-color: #062938;
 }
 
+.contact-label {
+  background-color: #89D2DC;
+  font-size: 1.25em;
+}
+
 h1 {
   margin: 0;
   padding: 1em;
