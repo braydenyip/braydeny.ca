@@ -40,6 +40,7 @@ body {
   padding: 15px;
   color: black;
   font-size: 1.125em;
+  float: none;
   border: none;
 }
 
