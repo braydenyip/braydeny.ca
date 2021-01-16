@@ -51,6 +51,8 @@ body {
 .contact-label {
   background-color: #89D2DC;
   font-size: 1.25em;
+  float:left;
+  max-width: 600px;
 }
 
 h1 {
