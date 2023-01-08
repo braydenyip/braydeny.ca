@@ -1,10 +1,10 @@
 body {
-  background-color:#F7F7FF;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  background-color:#343444;
+  font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
+  color: #d5e4fe;
 }
 
 #about-me {
-  color: black;
   padding: 25px;
   font-size: 1.25em;
   text-align: center;
@@ -13,8 +13,11 @@ body {
 #self-title {
   text-align: left;
   font-size: 2.5em;
-  color: black;
-  background-color: #89D2DC; /*~Skyblue type*/
+  background-color: #723198; /*~Skyblue type*/
+}
+
+#contact {
+  margin: 25px;
 }
 
 .project-button{
@@ -22,48 +25,46 @@ body {
   height: 100px;
   width: 600px;
   margin: 25px;
-  color: white;
-  background-color: #0B4F6C; /*Blue Sapphire*/
+  background-color: #389768; 
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1.125em;
   cursor: pointer;
   transition-duration: 0.25s;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
 }
 
-.project-desc{
+.project-desc {
   display: inline-block;
   margin-right: 0.5em;
   margin-left: 1em;
   padding: 15px;
-  color: black;
   font-size: 1.125em;
   float: none;
   border: none;
 }
 
 .project-button:hover{
-  background-color: #062938;
+  background-color: #7aba9a;
 }
 
 .contact-label {
-  background-color: #89D2DC;
+  background-color: #3c656b;
   font-size: 1.25em;
-  float:left;
+  float: left;
   max-width: 600px;
+  margin: 25px;
+  padding: 25px;
 }
 
 h1 {
   margin: 0;
-  padding: 1em;
+  padding: 0.75em;
   text-align: center;
-  color: #4C1E4F;
-  font-family: 'Roboto Slab', Times, serif
+  font-family: 'Inconsolata', Times, serif
 }
 
-p {
-  background-color: #F7F7FF;
-  color: white;
+a {
+  color: #8b91d7;
 }
