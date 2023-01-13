@@ -10,14 +10,47 @@ body {
   text-align: center;
 }
 
-#self-title {
-  text-align: left;
-  font-size: 2.5em;
-  background-color: #723198; /*~Skyblue type*/
-}
-
 #contact {
   margin: 25px;
+}
+
+#home-return-link {
+  color: azure;
+}
+
+.navbar {
+  text-align: left;
+  font-size: 3em;
+  background-color: #3c656b; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0.15em;
+  overflow: hidden;
+}
+
+.navbar-item {
+  float: left;
+  display: inline;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.navbar-item:hover {
+  background-color: #243c3f;
+}
+
+.navbar-link {
+  display: block;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+.navbar-link:link {
+  text-decoration: none;
+}
+
+.navbar-link:visited {
+  text-decoration: none;
 }
 
 .project-button{
@@ -66,5 +99,7 @@ h1 {
 }
 
 a {
-  color: #8b91d7;
+  color: #adbdde;
 }
+
+
