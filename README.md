@@ -1,4 +1,4 @@
 # braydenyip.github.io
 My Website
 
--- Soon to be deprecated
+-- run with gh-pages -d build
