@@ -1,11 +1,19 @@
 body {
-  background-color:#343444;
+  background-color:#556675;
   font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
   color: #d5e4fe;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  line-height: 1.25;
 }
 
 #about-me {
-  padding: 25px;
+  margin-left:20%;
+  margin-right:20%;
   font-size: 1.25em;
   text-align: center;
 }
@@ -19,35 +27,34 @@ body {
 }
 
 #resume-frame {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5%;
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #resume-loader {
+  text-align: center;
   width: 100%;
-  height: 1100px;
+  height: 1000px;
 }
 
 .navbar {
-  text-align: left;
-  font-size: 3em;
-  background-color: #3c656b; 
-  list-style-type: none;
-  margin: 0;
-  padding: 0.15em;
+  text-align: center;
+  font-size: 2.75em;
+  margin-left: 0%;
+  margin-right: 0%;
   overflow: hidden;
 }
 
 .navbar-item {
-  float: left;
-  display: inline;
+  float:none;
+  display:inline-block;
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
 
 .navbar-item:hover {
-  background-color: #243c3f;
+  background-color: #9d663f;
 }
 
 .navbar-link {
@@ -69,15 +76,15 @@ body {
 }
 
 .project-button{
-  border: none;
-  height: 100px;
-  width: 600px;
-  margin: 25px;
+  border: 2px solid black;
+  height: 5em;
+  width: 22em;
+  margin: 1%;
+  margin-right: 0%;
   background-color: #389768; 
   text-align: center;
-  text-decoration: none;
   display: inline-block;
-  font-size: 1.125em;
+  font-size: 1.25em;
   cursor: pointer;
   transition-duration: 0.25s;
   font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
@@ -86,11 +93,8 @@ body {
 .project-desc {
   display: inline-block;
   margin-right: 0.5em;
-  margin-left: 1em;
-  padding: 15px;
-  font-size: 1.125em;
-  float: none;
-  border: none;
+  margin-left: 0.5em;
+  font-size: 1.25em;
 }
 
 .project-button:hover{
@@ -98,12 +102,13 @@ body {
 }
 
 .contact-label {
-  background-color: #3c656b;
+  display: inline-block;
+  border: 2px solid black;
+  background-color: #4d3897; 
   font-size: 1.25em;
-  float: left;
-  max-width: 600px;
-  margin: 25px;
-  padding: 25px;
+  margin-left: 10%;
+  margin-right: 10%;  
+  padding: 1%;
 }
 
 h1 {
